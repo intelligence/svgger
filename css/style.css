@@ -1,0 +1,23 @@
+/* line 2, ../sass/style.scss */
+body {
+  text-align: center;
+}
+
+/* line 7, ../sass/style.scss */
+#wrapper {
+  margin: 3em auto;
+  width: 50em;
+}
+/* line 12, ../sass/style.scss */
+#wrapper svg {
+  height: 60px;
+  width: 60px;
+}
+/* line 19, ../sass/style.scss */
+#wrapper svg:nth-child(2n+1) circle {
+  fill: orange;
+}
+/* line 24, ../sass/style.scss */
+#wrapper svg:nth-child(2n+1) polygon {
+  fill: black;
+}
