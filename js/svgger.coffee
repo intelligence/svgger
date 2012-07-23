@@ -1,26 +1,30 @@
-$ ->
+$(window).ready ->
+	
 	# Get all img svg as target
-	$targets = $('img[src$="svg"]')
+	$targets = $('img[src$="svg"]').hide()
 
 	# Loop targets through
 	$targets.each ->
 
-		# Cache id and classes
-		img_id = this.id
-		img_class = $(this).attr('class')
-
 		# Get looped img
 		$.get this.src, (data) =>
-			
+
 			# Cache received data(svg) and find the svg tag
 			$d = $(data).find('svg')
+			# Cache attributes
+			attr = this.attributes
 
-			# Include id and classes if exists
-			if img_id? and !!img_id
-				$d.attr 'id', img_id
+			# Extend attributes from svg
+			$.extend attr, $d[0].attributes
 
-			if img_class? and !!img_class
-				$d.attr 'class', img_class
-			
+			# Loop through every attribute
+			$(attr).each ->
+				nName = this.nodeName
+				nValue = this.nodeValue
+
+				if (nName != 'src' and nName != 'style')
+					$d.attr nName, nValue
+				
 			# Replace img with svg data
+			# 'this' refers to each this :)
 			$(this).replaceWith $d

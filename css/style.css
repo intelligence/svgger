@@ -8,16 +8,11 @@ body {
   margin: 3em auto;
   width: 50em;
 }
-/* line 12, ../sass/style.scss */
-#wrapper svg {
-  height: 60px;
-  width: 60px;
-}
-/* line 19, ../sass/style.scss */
+/* line 16, ../sass/style.scss */
 #wrapper svg:nth-child(2n+1) circle {
   fill: orange;
 }
-/* line 24, ../sass/style.scss */
+/* line 21, ../sass/style.scss */
 #wrapper svg:nth-child(2n+1) polygon {
   fill: black;
 }

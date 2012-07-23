@@ -2,8 +2,8 @@
 <!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 43363)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="200px" height="200px" viewBox="0 0 200 200" enable-background="new 0 0 200 200" xml:space="preserve">
-<circle cx="100" cy="100" r="100"/>
-<polygon fill="#FFFFFF" points="100,50 115.451,82.918 150,88.197 125,113.819 130.901,150 100,132.918 69.098,150 75,113.819 
-	50,88.197 84.549,82.918 "/>
+	 width="60px" height="60px" viewBox="70 70 60 60" enable-background="new 70 70 60 60" xml:space="preserve">
+<circle cx="100" cy="100" r="30"/>
+<polygon fill="#FFFFFF" points="100,85 104.636,94.875 115,96.459 107.5,104.146 109.271,115 100,109.875 90.729,115 92.5,104.146 
+	85,96.459 95.365,94.875 "/>
 </svg>
