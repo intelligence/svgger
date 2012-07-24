@@ -30,6 +30,6 @@ It won't work because the SVG namespacing. If you let Svgger do it's job(or copy
 
 ## Usage
 
-It's simple. Just include jQuery and Svgger before the closing </head> and you're ready to go. Check out the package for example.
+It's simple. Just include jQuery and Svgger before the closing `</head>` and you're ready to go. Check out the package for example.
 
 Have fun!
